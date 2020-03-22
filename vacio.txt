@@ -10,5 +10,8 @@ VER LAS OPCIONES DEL COMANDO
 COMANDOS DE GIT
 1.- git show (archivo| )
 2.- git log (ver historia de commits)
-3.-  git reset idcommit --hard (moverse entre commits)
-4.-  git reset idcommit --soft
+3.- git log --stat
+4.- git reset idcommit --hard (moverse entre commits)
+5.- git reset idcommit --soft
+6.- git checkout idcommit archivo (volver a una version anterior de un archivo)
+6.- git checkout ramaMaster archivo (volver a la version actual del archivo)
