@@ -11,6 +11,9 @@ COMANDOS DE GIT
 1.- git show (archivo| )
 2.- git log (ver historia de commits)
 3.- git log --stat
+3.1.- git log --all --graph
+3.2.- git log --all --graph --decorate --oneline
+3.3.- alias arbolito = "git log --all --graph --decorate --oneline"
 4.- git reset idcommit --hard (moverse entre commits, regresar a una version[commits] anterior)
 5.- git reset idcommit --soft (moverse entre commits, regresar a una version[commits] anterior)
 6.- git checkout idcommit archivo (volver a una version anterior de un archivo)
@@ -25,3 +28,12 @@ que podremos recuperarlos si es necesario
 14.- git remote add origin https://github.com/OrtegaAAmadin/hiperblog.git\
 15.- git remote | git remote -v
 16.- git push origin nombrerama
+17.- git pull origin nombrerama
+17.1.- git pull origin nombrerama  --allow-unrelated-histories
+18.- git remote set-url origin nuevaUrl
+19.- git tag -a v0.1 -m "mensaje" idcommit
+19.1.- git tag | git show-ref --tags
+19.2.- git push origin --tags
+19.2.- git tag -d nombretag (eliminar tag)
+19.2.- git push origin :refs/tags/nombretag (eliminar ref tag en la web)
+20.- gitk (abre un sw)
