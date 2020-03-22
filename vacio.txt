@@ -6,3 +6,19 @@ ACCEDER A LOS COMANDOS MEDIANTE EL NUMERO
 
 VER LAS OPCIONES DEL COMANDO
 1.- COMANDO --HELP
+
+COMANDOS DE GIT
+1.- git show (archivo| )
+2.- git log (ver historia de commits)
+3.- git log --stat
+4.- git reset idcommit --hard (moverse entre commits, regresar a una version[commits] anterior)
+5.- git reset idcommit --soft (moverse entre commits, regresar a una version[commits] anterior)
+6.- git checkout idcommit archivo (volver a una version anterior de un archivo)
+7.- git checkout ramaMaster archivo (volver a la version actual del archivo)
+8.- git rm --cached: Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro.
+9.- git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo
+que podremos recuperarlos si es necesario
+10.- git reset HEAD
+11.- git branch nomrama (creamos una rama)
+12.- git checkout nomrama (cambiamos a la rama nomrama)
+13.- git checkout -b nomrama (creamos una nueva rama y la vez nos movemos a dicha rama)
