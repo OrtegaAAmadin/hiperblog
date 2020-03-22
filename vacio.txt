@@ -22,3 +22,6 @@ que podremos recuperarlos si es necesario
 11.- git branch nomrama (creamos una rama)
 12.- git checkout nomrama (cambiamos a la rama nomrama)
 13.- git checkout -b nomrama (creamos una nueva rama y la vez nos movemos a dicha rama)
+14.- git remote add origin https://github.com/OrtegaAAmadin/hiperblog.git\
+15.- git remote | git remote -v
+16.- git push origin nombrerama
