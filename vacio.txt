@@ -6,3 +6,9 @@ ACCEDER A LOS COMANDOS MEDIANTE EL NUMERO
 
 VER LAS OPCIONES DEL COMANDO
 1.- COMANDO --HELP
+
+COMANDOS DE GIT
+1.- git show (archivo| )
+2.- git log (ver historia de commits)
+3.-  git reset idcommit --hard (moverse entre commits)
+4.-  git reset idcommit --soft
